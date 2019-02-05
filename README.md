@@ -1,5 +1,7 @@
 # Implementing a recommender system in R
 
+collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating).
+
 # Source of the dataset
 This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The data is obtained fom UCI Machine Learning Repository.
 
@@ -36,4 +38,8 @@ library(data.table)<br>
 library(ggplot2)<br>
 library(knitr)
 
-#
+# Flow of the project
+
+The codes of the project are shown as script.R file in a project pipeline format which can be run one after the other to get an idea of the flow of the analysis.<br>
+
+The script data cleaning shows the basic cleaning and preparation of the raw data for the further analysis steps. The next script EDA unveils the interesting facts of the data using exploratory data analysis techniques. Finally market basket analysis is conducted to identify the products that often co-occur in transactions.
