@@ -22,7 +22,7 @@ library(ggplot2)
 library(knitr)
 ```
 
-## Data Pre-preprocessing
+### Data Pre-preprocessing
 Some pre-processing of the data available is required before creating the recommendation system.
 ```{r}
 df_data <- fread('../input/data.csv')
